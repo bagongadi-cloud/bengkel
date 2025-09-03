@@ -1,0 +1,5 @@
+# .htaccess
+<FilesMatch "\.(php|ini|sql)$">
+  Order deny,allow
+  Deny from all
+</FilesMatch>
